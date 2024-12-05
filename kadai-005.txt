@@ -1,0 +1,19 @@
+Last login: Wed Dec  4 14:34:59 on ttys016
+yabekoudai@Mac ~ % cd /Users/yabekoudai/Desktop
+yabekoudai@Mac Desktop % mkdir git_callenge
+yabekoudai@Mac Desktop % cd git_callenge
+yabekoudai@Mac git_callenge % git init
+Initialized empty Git repository in /Users/yabekoudai/Desktop/git_callenge/.git/
+yabekoudai@Mac git_callenge % git add hello_world.txt
+yabekoudai@Mac git_callenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 7b57d76] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+yabekoudai@Mac git_callenge % git add hello_world.txt
+yabekoudai@Mac git_callenge % git commit -m "日本語訳を追記"
+[main 3586e82] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+yabekoudai@Mac git_callenge % git log --oneline
+3586e82 (HEAD -> main) 日本語訳を追記
+7b57d76 hello_world.txtを追加
+yabekoudai@Mac git_callenge % 
